@@ -285,9 +285,10 @@ The following demo relies on [autosuggest-highlight](https://github.com/moroshko
 
 {{"demo": "Highlights.js"}}
 
-### GitHub's picker
+### GitHub label picker
 
-To reproduce GitHub's label picker, the `Autocomplete` is rendered inside a MUI Base [`Popper`](https://v6.mui.com/base-ui/react-popper/). To remove the popup behavior from the autocomplete, replace the listbox slot with the `AutocompleteListbox` component.
+The demo below reproduces GitHub's label picker component. 
+To remove the popup behavior, replace the listbox slot with the `AutocompleteListbox` component.
 
 {{"demo": "GitHubLabel.js"}}
 
