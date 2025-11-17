@@ -68,7 +68,7 @@ The `helperText` prop can then be used to provide feedback to the user about the
 
 ## Multiline
 
-The `multiline` prop transforms the Text Field into a [MUI Base Textarea Autosize](https://v6.mui.com/base-ui/react-textarea-autosize/) element.
+The `multiline` prop transforms the Text Field into an autosizing textarea.
 Unless the `rows` prop is set, the height of the text field dynamically matches its content.
 You can use the `minRows` and `maxRows` props to bound it.
 
