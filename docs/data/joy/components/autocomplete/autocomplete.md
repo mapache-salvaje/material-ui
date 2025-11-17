@@ -287,7 +287,7 @@ The following demo relies on [autosuggest-highlight](https://github.com/moroshko
 
 ### GitHub label picker
 
-The demo below reproduces GitHub's label picker component. 
+The demo below reproduces GitHub's label picker component.
 To remove the popup behavior, replace the listbox slot with the `AutocompleteListbox` component.
 
 {{"demo": "GitHubLabel.js"}}
